@@ -1,0 +1,47 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.codex
+/.cursor/
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/fonts-manifest.dev.json
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/storage/app/openfoodfacts/
+/storage/app/private/backups/
+/vendor
+_ide_helper.php
+Homestead.json
+Homestead.yaml
+Thumbs.db
+
+# Local HTTPS certificates - do not upload private keys
+192.168.137.1+2-key.pem
+192.168.137.1+2.pem
+
+# Laravel runtime files
+/storage/logs/*
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/views/*
+
+
+# Local database backups
+/extrack_backup*.sql
+
+/scanner_new.b64
+*.bak
+
